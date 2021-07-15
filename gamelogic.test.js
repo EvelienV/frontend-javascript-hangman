@@ -39,7 +39,7 @@ test("isGameWon should return false when all letters have not been guessed yet",
 test("isGameWon should return true when all letters have been guessed", () => {
   // ARRANGE
   const word = "javascript";
-  const guesses = ["j", "a", "v", "s", "c", "r", "i", "p", "t"];
+  const guesses = ["j", "a", "v", "a", "s", "c", "r", "i", "p", "t"];
 
   // ACT
   const gameWon = isGameWon(word, guesses);
